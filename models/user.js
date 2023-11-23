@@ -9,6 +9,14 @@ const UserSchema = mongoose.Schema({
         type:Schema.Types.String,
         required: true,
         unique: true
+    },
+    password:{
+        type:Schema.Types.String,
+        required: true,
+    },
+    phonw:{
+        type:Schema.Types.Number,
+        
     }
 });
 
